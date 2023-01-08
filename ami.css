@@ -1,0 +1,149 @@
+*{
+margin:0;
+padding: 0;
+}
+/*banner styles*/
+.banner{
+   
+    height: 700px;
+    width:1600px;
+background-image: url(../banner2.png);
+background-size: cover;
+
+}
+.banner-text{
+    height: 466px;
+width: 526px;
+padding-left:845px;
+padding-top: 216px;
+padding-right: 229px;
+padding-bottom: 126px;
+text-align: right;
+}
+.banner-button{
+    color: white;
+    font-weight:450;
+    font-size:20px;
+    border: 0;
+    padding: 10px;
+ background :orangered; 
+ border-radius: 5px; margin: 10px;
+
+}
+
+/*second banner*/
+
+.second-banner{
+    display: flex;
+    align-items: center;
+    margin: 130px 206px 322px;
+}
+.banner-text02{
+    margin-left: 70px;
+}
+.title01{
+    font-weight:600;
+    font-size: 45px;
+}
+.title02{
+    font-weight:600;
+    font-size: 45px;
+}
+.list-item{
+    margin:10px 5px 20px;
+    list-style-type:square;
+}
+/* my plan */
+
+.my-plan{margin: 1oopx 206px 322px;
+
+}
+.plan-habbit{
+    display: flex;
+    margin:20px;
+
+}
+#habbits{
+    align-items:center;
+ margin-left:150px;
+}
+/*main*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section{
+    background-image:url(gradient2.png), url(watch.png);
+    background-size: cover;
+    width: 1130px;
+    height: 300px;
+   margin-top: 150px;
+}
+.about{
+    padding-left:65px;
+padding-top: 59px;
+padding-right: 616px;
+padding-bottom: 59px;
+text-align:left;
+}
+.banner-button02{
+    color:orangered;
+    font-weight:450;
+    font-size:20px;
+    border: 0;
+    padding: 10px;
+ background :white; 
+ border-radius: 5px; margin: 10px;
+}
+
+/*third banner*/
+.third-banner{
+    display: flex;
+    align-items: center;
+    margin: 130px 206px 322px;
+}
+.banner-text03{
+    margin-left: 70px;
+}
+.title03{
+    font-weight:600;
+    font-size: 45px;
+}
+.title04{
+    font-weight:600;
+    font-size: 45px;
+}
+/* footer*/
+
+.footer{
+background-color: black;
+display: flex;
+}
+.footer-text{
+    color: white;
+    height: 466px;
+    width: 526px;
+    padding-left:210px;
+    padding-top:130px;
+    padding-right: 800px;
+    padding-bottom: 130px;
+    text-align: left;
+}
+.footer-text02{
+    color: white;
+    height: 466px;
+    width: 526px;
+    padding-left:50px;
+    padding-top: 216px;
+    padding-right: 229px;
+    padding-bottom: 126px;
+    text-align: left;
+}
+.banner-button03{
+    color: white;
+    font-weight:450;
+    font-size:20px;
+    border: 0;
+    padding: 10px;
+ background :greenyellow; 
+ border-radius: 5px; margin: 10px; }
